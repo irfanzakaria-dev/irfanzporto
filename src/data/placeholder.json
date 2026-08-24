@@ -1,0 +1,42 @@
+{
+  "name": "IRFAN ZAKARIA",
+  "tagline": "Junior Full Stack Developer | Web & Mobile App Solutions | Continuous Learner",
+  "about": "Saya adalah seorang Junior Full Stack Developer asal Pasuruan dengan dedikasi tinggi dalam membangun aplikasi web & mobile yang efisien, terstruktur, dan user-friendly. Berbekal pengalaman membangun proyek nyata menggunakan Laravel, Node.js, Express, React, TypeScript, Flutter, dan PostgreSQL/Supabase, saya selalu bersemangat untuk terus berkembang, menerapkan clean architecture & best practices industri, serta berkontribusi aktif dalam tim rekayasa perangkat lunak.",
+  "skills": [
+    "PHP",
+    "Laravel",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Express",
+    "Flutter",
+    "Tailwind CSS",
+    "PostgreSQL",
+    "Supabase",
+    "Git",
+    "REST API",
+    "MySQL"
+  ],
+  "contact": {
+    "email": "irfanzakariyah@gmail.com",
+    "phone": "+62 858-5637-0945",
+    "social": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/irfanzakariyah-pemula",
+        "icon": "fab fa-github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/irfanzakariyah",
+        "icon": "fab fa-linkedin"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/irfanzakariyah",
+        "icon": "fab fa-twitter"
+      }
+    ]
+  }
+}

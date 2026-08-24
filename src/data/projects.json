@@ -1,0 +1,68 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "title": "Sistem Booking Ruangan Modern",
+    "description": "Aplikasi sistem informasi peminjaman dan reservasi ruangan berbasis web. Dibangun dengan arsitektur decoupled (Node.js/Express REST API & Supabase PostgreSQL) lengkap dengan otentikasi JWT multi-role, validasi bentrok jadwal otomatis, manajemen kapasitas ruangan, upload foto ke cloud storage, dan panel approval admin.",
+    "technologies": ["Node.js", "Express", "Supabase", "PostgreSQL", "JWT", "JavaScript", "Vite", "Bootstrap"],
+    "imageUrl": "/images/projects/booking_login.png",
+    "additionalImages": [
+      "/images/projects/booking_login.png",
+      "/images/projects/booking_user_list.png",
+      "/images/projects/booking_user_rooms.png",
+      "/images/projects/booking_admin_approval.png",
+      "/images/projects/booking_admin_rooms.png",
+      "/images/projects/booking_admin_users.png"
+    ],
+    "isFeatured": true,
+    "repoUrl": "https://github.com/irfanzakariyah-pemula/bookingroom"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "title": "Smart Retail Inventory & POS System",
+    "description": "Aplikasi manajemen stok dan kasir toko/minimarket berbasis Flutter dan Supabase. Dilengkapi Dashboard KPI Live (omset, profit, alert stok kritis), sistem kasir POS dengan kalkulasi otomatis & struk digital, CRUD katalog produk, dan pencatatan buku kas real-time. Demo: admin.dosen@gmail.com / dosen123",
+    "technologies": ["Flutter", "Dart", "Supabase", "PostgreSQL", "REST API", "State Management"],
+    "imageUrl": "/images/projects/inventory_login_dashboard.png",
+    "additionalImages": [
+      "/images/projects/inventory_login_dashboard.png",
+      "/images/projects/inventory_pos.png",
+      "/images/projects/inventory_stok.png",
+      "/images/projects/inventory_laporan.png",
+      "/images/projects/inventory_profil.png"
+    ],
+    "isFeatured": true,
+    "demoUrl": "https://irfanzakariyah-pemula.github.io/inventory_app/",
+    "repoUrl": "https://github.com/irfanzakariyah-pemula/inventory_app"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "title": "Ngopikel - Coffee Shop Discovery Platform",
+    "description": "Platform web discovery coffee shop berbasis Laravel 12 + Tailwind CSS v4. Fitur: peta interaktif Leaflet.js, sistem review & rating bintang, favorites, manajemen menu & promosi, admin dashboard real-time analytics, serta keamanan production-grade (CSRF, XSS, rate limiting). Demo: admin@ngopikel.com / password",
+    "technologies": ["Laravel 12", "PHP 8.3", "Tailwind CSS v4", "Alpine.js", "Leaflet.js", "SQLite", "Blade", "Vite"],
+    "imageUrl": "/images/projects/ngopikel_hero.png",
+    "additionalImages": [
+      "/images/projects/ngopikel_hero.png",
+      "/images/projects/ngopikel_list.png",
+      "/images/projects/ngopikel_detail.png",
+      "/images/projects/ngopikel_map.png",
+      "/images/projects/ngopikel_admin.png"
+    ],
+    "isFeatured": true,
+    "repoUrl": "https://github.com/irfanzakariyah-pemula/coffee-shop-discovery-platform"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "title": "Marketplace & Admin Dashboard Bibit Express",
+    "description": "Platform e-commerce katalog dan dashboard manajemen produk UMKM berbasis Next.js dan Supabase. Fitur manajemen pesanan, katalog responsif, dan monitoring penjualan.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
+    "imageUrl": "https://picsum.photos/seed/bibitexpress/800/450",
+    "isFeatured": false
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "title": "Upcoming Project - TBD",
+    "description": "Proyek baru yang sedang dalam perencanaan dan riset arsitektur. Coming soon!",
+    "technologies": ["Python", "FastAPI", "PostgreSQL", "Docker"],
+    "imageUrl": "https://picsum.photos/seed/upcoming3/800/450",
+    "isFeatured": false
+  }
+]

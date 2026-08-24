@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1",
+    "title": "Project Alpha",
+    "description": "First test project",
+    "technologies": [
+      "React",
+      "TypeScript"
+    ],
+    "imageUrl": "/images/alpha.jpg",
+    "isFeatured": true,
+    "demoUrl": "https://alpha.example.com",
+    "repoUrl": "https://github.com/test/alpha"
+  }
+]

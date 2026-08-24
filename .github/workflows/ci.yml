@@ -1,0 +1,58 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  validate:
+    name: Lint, Test, & Build
+    runs-on: ubuntu-latest
+
+    env:
+      CI: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type Check
+        run: npm run type-check
+
+      - name: Lint Code
+        run: npm run lint
+
+      - name: Lint CSS
+        run: npm run lint:css
+
+      - name: Run Tests with Coverage
+        run: npm run test:coverage
+
+      - name: Build Application
+        run: npm run build
+
+      - name: Verify Bundle Size
+        run: |
+          CSS_SIZE=$(gzip -c dist/assets/*.css | wc -c)
+          JS_SIZE=$(gzip -c dist/assets/*.js | head -n 1 | wc -c)
+          echo "Gzipped CSS size: ${CSS_SIZE} bytes (limit 51200)"
+          echo "Gzipped JS size: ${JS_SIZE} bytes (limit 102400)"
+          if [ "$CSS_SIZE" -gt 51200 ]; then
+            echo "CSS bundle exceeds 50KB gzip limit!"
+            exit 1
+          fi
+          if [ "$JS_SIZE" -gt 102400 ]; then
+            echo "JS bundle exceeds 100KB gzip limit!"
+            exit 1
+          fi
