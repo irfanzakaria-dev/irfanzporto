@@ -92,7 +92,7 @@ Copy-paste data ini ke `projects.json`:
     "/images/projects/ngopikel_admin.png"
   ],
   "isFeatured": true,
-  "repoUrl": "https://github.com/irfanzakariyah-pemula/coffee-shop-discovery-platform",
+  "repoUrl": "https://github.com/irfanzakaria-dev/coffee-shop-discovery-platform",
   "highlights": [
     "🔐 Production-grade security (CSRF, XSS, rate limiting)",
     "⚡ Performance optimized (60% faster with caching & indexing)",

@@ -32,9 +32,7 @@ const CONTACT_INFO: ContactInfo = {
   email: 'irfanzakariyah@gmail.com',
   phone: '+62 858-5637-0945',
   social: [
-    { platform: 'GitHub', url: 'https://github.com/irfanzakariyah-pemula', icon: 'github' },
-    { platform: 'LinkedIn', url: 'https://linkedin.com/in/irfanzakariyah', icon: 'linkedin' },
-    { platform: 'Twitter', url: 'https://twitter.com/irfanzakariyah', icon: 'twitter' },
+    { platform: 'GitHub', url: 'https://github.com/irfanzakaria-dev', icon: 'github' },
   ],
 };
 

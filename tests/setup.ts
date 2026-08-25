@@ -48,7 +48,7 @@ const mockPlaceholderData = {
     social: [
       {
         platform: "GitHub",
-        url: "https://github.com/irfanzakariyah-pemula",
+        url: "https://github.com/irfanzakaria-dev",
         icon: "fab fa-github"
       }
     ]

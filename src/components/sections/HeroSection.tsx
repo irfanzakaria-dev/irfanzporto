@@ -174,7 +174,7 @@ function HeroSection(): React.ReactElement {
                   location: <span className="text-[#E8E8E8]">'Pasuruan, Indonesia'</span>,
                 </p>
                 <p className="pl-3 sm:pl-4 text-[#d1d5db]">
-                  github: <span className="text-[#7693A1]">'irfanzakariyah-pemula'</span>,
+                  github: <span className="text-[#7693A1]">'irfanzakaria-dev'</span>,
                 </p>
                 <p className="pl-3 sm:pl-4 text-[#d1d5db]">
                   focus: [<span className="text-[#7693A1]">'Laravel'</span>, <span className="text-[#7693A1]">'React'</span>, <span className="text-[#7693A1]">'Node.js'</span>],

@@ -24,18 +24,8 @@
     "social": [
       {
         "platform": "GitHub",
-        "url": "https://github.com/irfanzakariyah-pemula",
+        "url": "https://github.com/irfanzakaria-dev",
         "icon": "fab fa-github"
-      },
-      {
-        "platform": "LinkedIn",
-        "url": "https://linkedin.com/in/irfanzakariyah",
-        "icon": "fab fa-linkedin"
-      },
-      {
-        "platform": "Twitter",
-        "url": "https://twitter.com/irfanzakariyah",
-        "icon": "fab fa-twitter"
       }
     ]
   }
