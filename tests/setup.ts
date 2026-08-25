@@ -40,7 +40,7 @@ global.IntersectionObserver = MockIntersectionObserver as any;
 const mockPlaceholderData = {
   name: "IRFAN ZAKARIA",
   tagline: "Junior Full Stack Developer | Problem Solver | Continuous Learner",
-  about: "Saya adalah seorang Junior Full Stack Developer asal Pasuruan dengan dedikasi tinggi dalam membangun aplikasi web yang user-friendly, modern, dan scalable.",
+  about: "Saya adalah mahasiswa S1 Teknik Informatika (Semester 7) di Universitas Yudharta Pasuruan sekaligus Junior Full Stack Developer yang berdedikasi tinggi.",
   skills: ["JavaScript", "TypeScript", "React", "Node.js", "Laravel"],
   contact: {
     email: "irfanzakariyah@gmail.com",

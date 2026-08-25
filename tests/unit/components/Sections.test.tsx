@@ -50,7 +50,8 @@ describe('AboutSection Component', () => {
     await waitFor(() => {
       const h2 = screen.getByRole('heading', { level: 2, name: /about me/i });
       expect(h2).toBeInTheDocument();
-      expect(screen.getByText(/Junior Full Stack Developer asal Pasuruan/i)).toBeInTheDocument();
+      expect(screen.getAllByText(/Teknik Informatika/i).length).toBeGreaterThan(0);
+      expect(screen.getAllByText(/Junior Full Stack Developer/i).length).toBeGreaterThan(0);
     });
   });
 });

@@ -88,15 +88,28 @@ function AboutSection(): React.ReactElement {
               </div>
             )}
 
-            {/* Core Focus Pillars */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6 sm:mb-8">
+            {/* Core Focus Pillars & Education */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6 sm:mb-8">
               <div className="p-3.5 rounded-xl bg-[#18181b]/80 border border-[#464646]/50">
-                <div className="text-xs font-bold text-[#E8E8E8] mb-1">Clean Architecture</div>
-                <div className="text-[11px] text-[#8e8e93] font-light">Modular, maintainable, and highly tested codebase.</div>
+                <div className="text-xs font-bold text-[#E8E8E8] mb-1 flex items-center gap-1.5">
+                  <span className="text-[#7693A1]">🎓</span> Pendidikan
+                </div>
+                <div className="text-[11px] text-[#8e8e93] font-light leading-relaxed">
+                  <strong className="text-[#d1d5db] font-medium">S1 Teknik Informatika</strong>
+                  <div>Universitas Yudharta Pasuruan</div>
+                </div>
               </div>
               <div className="p-3.5 rounded-xl bg-[#18181b]/80 border border-[#464646]/50">
-                <div className="text-xs font-bold text-[#7693A1] mb-1">Modern UI/UX</div>
-                <div className="text-[11px] text-[#8e8e93] font-light">Fast, accessible, and responsive user experiences.</div>
+                <div className="text-xs font-bold text-[#E8E8E8] mb-1 flex items-center gap-1.5">
+                  <span className="text-[#7693A1]">⚡</span> Clean Architecture
+                </div>
+                <div className="text-[11px] text-[#8e8e93] font-light leading-relaxed">Modular, maintainable, and highly tested codebase.</div>
+              </div>
+              <div className="p-3.5 rounded-xl bg-[#18181b]/80 border border-[#464646]/50">
+                <div className="text-xs font-bold text-[#7693A1] mb-1 flex items-center gap-1.5">
+                  <span className="text-[#7693A1]">✨</span> Modern UI/UX
+                </div>
+                <div className="text-[11px] text-[#8e8e93] font-light leading-relaxed">Fast, accessible, and responsive user experiences.</div>
               </div>
             </div>
 
