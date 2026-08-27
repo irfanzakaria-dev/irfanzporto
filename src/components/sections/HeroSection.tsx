@@ -127,8 +127,10 @@ function HeroSection(): React.ReactElement {
                 Get In Touch
               </a>
               <a
-                href="/cv-irfan-zakaria.pdf"
-                download="CV_Irfan_Zakaria.pdf"
+                href="/CV_Irfan%20Zakaria_Junior%20Software%20Developer.pdf"
+                download="CV_Irfan_Zakaria_Junior_Software_Developer.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={[
                   'w-full sm:w-auto text-center px-5 py-3 rounded-xl font-semibold text-xs sm:text-sm tracking-wide',
                   'bg-[#141518] text-[#d1d5db] hover:text-white hover:bg-[#1c1d21]',

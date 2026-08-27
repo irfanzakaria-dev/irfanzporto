@@ -146,8 +146,10 @@ function AboutSection(): React.ReactElement {
             {/* Resume / Contact Actions */}
             <div className="flex flex-wrap gap-3 items-center">
               <a
-                href="/cv-irfan-zakaria.pdf"
-                download="CV_Irfan_Zakaria.pdf"
+                href="/CV_Irfan%20Zakaria_Junior%20Software%20Developer.pdf"
+                download="CV_Irfan_Zakaria_Junior_Software_Developer.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-semibold tracking-wide bg-[#18181b] text-[#E8E8E8] hover:bg-[#202024] border border-[#464646]/60 hover:border-[#7693A1] transition-all hover:-translate-y-0.5"
                 aria-label="Download Irfan Zakaria Resume"
               >
